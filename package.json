@@ -5,16 +5,20 @@
 	"description": "Update your discord status with the newly added rich presence.",
 	"private": true,
 	"author": {
-		"name": "iCrawl",
-		"email": "icrawltogo@gmail.com"
+		"name": "Arief BP",
+		"email": "ariefbp27@gmail.com"
 	},
 	"contributors": [
+		{
+			"name": "iCrawl",
+			"email": "icrawltogo@gmail.com"
+		},
 		{
 			"name": "Frangu Vlad",
 			"email": "kingdgrizzle@gmail.com"
 		}
 	],
-	"publisher": "icrawl",
+	"publisher": "archytech99",
 	"license": "MIT",
 	"main": "./dist/extension",
 	"scripts": {
@@ -140,7 +144,7 @@
 					},
 					"discord.workspaceElapsedTime": {
 						"type": "boolean",
-						"default": false,
+						"default": true,
 						"description": "Decides whether to display elapsed time for a workspace or a single file"
 					},
 					"discord.workspaceExcludePatterns": {
@@ -157,10 +161,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/iCrawl/discord-vscode.git"
+		"url": "https://github.com/archytech99/discord-vscode.git"
 	},
 	"bugs": {
-		"url": "https://github.com/iCrawl/discord-vscode/issues"
+		"url": "https://github.com/archytech99/discord-vscode/issues"
 	},
 	"keywords": [
 		"discord",
@@ -173,7 +177,7 @@
 	"categories": [
 		"Other"
 	],
-	"homepage": "https://github.com/iCrawl/discord-vscode#readme",
+	"homepage": "https://github.com/archytech99/discord-vscode#readme",
 	"icon": "assets/icon.png",
 	"galleryBanner": {
 		"color": "#6477C1",
